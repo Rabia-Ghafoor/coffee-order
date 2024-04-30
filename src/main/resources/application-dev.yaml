@@ -1,1 +1,12 @@
-server.port=8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:6001/coffee-order
+    username: coffee-order
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always
