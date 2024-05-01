@@ -1,6 +1,6 @@
 package edu.iu.habahram.coffeeorder.repository;
 
-import iu.edu.homework2.Model.Customer;
+import edu.iu.habahram.coffeeorder.model.Customer;
 import org.springframework.data.repository.CrudRepository;
 
 

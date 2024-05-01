@@ -1,8 +1,6 @@
 package edu.iu.habahram.coffeeorder.model;
 
 import jakarta.persistence.Entity;
-
-import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -49,4 +47,5 @@ public final class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
