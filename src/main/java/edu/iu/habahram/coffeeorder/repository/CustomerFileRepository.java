@@ -4,6 +4,7 @@ import edu.iu.habahram.coffeeorder.model.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +16,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class CustomerFileRepository {
     private static final Logger LOG =
             LoggerFactory.getLogger(CustomerFileRepository.class);

@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @Repository
 public class OrderRepository {
-    private static final AtomicLong ID_GENERATOR = new AtomicLong(); // For generating unique IDs
+    public static final AtomicLong ID_GENERATOR = new AtomicLong(); // For generating unique IDs
 
     public Receipt add(OrderData order) throws Exception {
         long receiptId = ID_GENERATOR.incrementAndGet();
