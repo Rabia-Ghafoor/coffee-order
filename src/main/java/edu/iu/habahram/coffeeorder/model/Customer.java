@@ -1,14 +1,17 @@
 package edu.iu.habahram.coffeeorder.model;
 
 import jakarta.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Table;
+
+import jakarta.persistence.Id;
 
 
 @Entity
-@Table(schema = "coffee-orders", name="customers")
+@Table(schema = "coffeeorders", name="customers")
 public final class Customer {
     @Id
+    @GeneratedValue
     private  String username;
     private  String password;
     private  String email;

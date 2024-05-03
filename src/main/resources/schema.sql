@@ -1,1 +1,1 @@
-CREATE SCHEMA IF NOT EXISTS coffee-orders;
+CREATE SCHEMA IF NOT EXISTS coffeeorders;
